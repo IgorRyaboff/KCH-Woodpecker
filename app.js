@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const rl = require('readline').createInterface(process.stdin, process.stdout);
 const Express = require('express');
-const ExpressLP = require('express-longpoll');
 const ExpressWS = require('express-ws');
 function formatDate(date, compact = false) {
     const adjustZeros = (x, required = 2) => {
